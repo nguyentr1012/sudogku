@@ -1,0 +1,42 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:background="@color/white">
+
+    <!-- Game Title -->
+    <TextView
+        android:id="@+id/game_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sudoku"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="32dp" />
+
+    <!-- Play Button -->
+    <Button
+        android:id="@+id/start_game_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Chơi"
+        android:textColor="@android:color/white"
+        android:layout_below="@id/game_title"
+        android:layout_marginTop="32dp"
+        android:padding="16dp"
+        android:background="@color/black" /> <!-- Add a background color -->
+
+    <!-- Continue Playing Button -->
+    <Button
+        android:id="@+id/continue_game_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Tiếp Tục Trò Chơi"
+        android:textColor="@android:color/white"
+        android:layout_below="@id/start_game_button"
+        android:layout_marginTop="16dp"
+        android:padding="16dp"
+        android:background="@color/black" /> <!-- Add a background color -->
+
+</RelativeLayout>
